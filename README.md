@@ -28,6 +28,10 @@
 
 Consult three Riot Games (League of Legends) Apis to get the ten latest match results. 
 
+Future updates:
+  *Front-end to ask the user Summoner Name and Server
+  *Register the product in [Riot Games](https://developer.riotgames.com/) to use a static product key 
+
 ## Installation
 
 ```bash
@@ -46,6 +50,9 @@ $ nest start --watch
 # production mode
 $ npm run start:prod
 ```
+## Object in app.services.ts
+
+  The object "key" is the product key and an env variable. 
 
 ## Support
 
